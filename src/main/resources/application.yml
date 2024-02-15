@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: rinha-java-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rinha
+    username: postgres
+    password: root
+
+server:
+  port: 8080
